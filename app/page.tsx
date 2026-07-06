@@ -14,13 +14,13 @@ export default function LandingPage() {
       </nav>
 
       {/* Hero */}
-      <header style={{ padding: '88px 0 40px', textAlign: 'center' }}>
+      <header style={{ padding: '64px 0 32px', textAlign: 'center' }}>
         <span className="eyebrow">For agencies & consultants</span>
-        <h1 className="display" style={{ fontSize: 'clamp(3rem, 8vw, 6.4rem)', maxWidth: '16ch', margin: '0 auto' }}>
+        <h1 className="display" style={{ fontSize: 'clamp(2.4rem, 6vw, 4.2rem)', maxWidth: '18ch', margin: '0 auto', lineHeight: 1.1 }}>
           From sales call to signed-ready proposal{' '}
           <em style={{ fontStyle: 'normal', color: '#0E6B4F' }}>in 10 minutes.</em>
         </h1>
-        <p style={{ fontSize: '1.35rem', color: 'var(--color-muted)', margin: '32px auto 40px', maxWidth: '46ch' }}>
+        <p style={{ fontSize: '1.15rem', color: 'var(--color-muted)', margin: '24px auto 32px', maxWidth: '48ch' }}>
           Turn your agency's sales call transcripts into polished, branded proposals written in your voice, using your template.
         </p>
         <a href="#waitlist" className="btn">
@@ -90,21 +90,21 @@ export default function LandingPage() {
       </div>
 
       {/* Value prop */}
-      <section style={{ padding: '56px 0' }}>
+      <section style={{ padding: '48px 0' }}>
         <div className="block white">
-          <h2 className="display" style={{ fontSize: 'clamp(2.3rem, 4.8vw, 3.8rem)', marginBottom: '22px', maxWidth: '24ch' }}>
+          <h2 className="display" style={{ fontSize: 'clamp(1.9rem, 4vw, 2.8rem)', marginBottom: '18px', maxWidth: '26ch', lineHeight: 1.2 }}>
             The best sales call is worthless if the proposal takes three days.
           </h2>
-          <p style={{ fontSize: '1.25rem', maxWidth: '58ch', color: 'var(--color-muted)' }}>
+          <p style={{ fontSize: '1.1rem', maxWidth: '58ch', color: 'var(--color-muted)' }}>
             The call goes perfectly, the client is warm — and then the proposal sits on your "to write" list for days. Meanwhile, they're talking to competitors. DealDraft closes that gap: the proposal goes out the same day, written in the client's own words.
           </p>
         </div>
       </section>
 
       {/* How it works */}
-      <section style={{ padding: '56px 0' }}>
+      <section style={{ padding: '48px 0' }}>
         <div className="block">
-          <h2 className="display" style={{ fontSize: 'clamp(2.3rem, 4.8vw, 3.8rem)', marginBottom: '52px' }}>
+          <h2 className="display" style={{ fontSize: 'clamp(1.9rem, 4vw, 2.8rem)', marginBottom: '40px', lineHeight: 1.2 }}>
             How it works
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
@@ -146,12 +146,12 @@ export default function LandingPage() {
       </section>
 
       {/* The math */}
-      <section style={{ padding: '56px 0' }}>
+      <section style={{ padding: '48px 0' }}>
         <div className="block white">
-          <h2 className="display" style={{ fontSize: 'clamp(2.3rem, 4.8vw, 3.8rem)', marginBottom: '22px' }}>
+          <h2 className="display" style={{ fontSize: 'clamp(1.9rem, 4vw, 2.8rem)', marginBottom: '18px', lineHeight: 1.2 }}>
             Do the math.
           </h2>
-          <p style={{ fontSize: '1.25rem', color: 'var(--color-muted)', marginBottom: '44px', maxWidth: '58ch' }}>
+          <p style={{ fontSize: '1.1rem', color: 'var(--color-muted)', marginBottom: '36px', maxWidth: '58ch' }}>
             8 proposals per month × 3 hours each — almost a week of work you can't bill.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
@@ -176,13 +176,13 @@ export default function LandingPage() {
       </section>
 
       {/* Your template */}
-      <section style={{ padding: '56px 0' }}>
+      <section style={{ padding: '48px 0' }}>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', overflow: 'hidden', borderRadius: '32px' }}>
-          <div style={{ background: 'var(--color-green)', color: '#fff', padding: '72px 56px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-            <h2 className="display" style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', color: '#fff', marginBottom: '18px' }}>
+          <div style={{ background: 'var(--color-green)', color: '#fff', padding: '56px 48px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            <h2 className="display" style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.4rem)', color: '#fff', marginBottom: '16px', lineHeight: 1.2 }}>
               Your template. Your voice.
             </h2>
-            <p style={{ color: '#D3E6DE', fontSize: '1.15rem', maxWidth: '44ch' }}>
+            <p style={{ color: '#D3E6DE', fontSize: '1.05rem', maxWidth: '44ch' }}>
               Configured once with your sections, services, pricing, and tone. Every proposal comes out like your best person wrote it on a good day — using the words the client used in the call.
             </p>
           </div>
@@ -192,12 +192,12 @@ export default function LandingPage() {
       </section>
 
       {/* Waitlist */}
-      <section id="waitlist" style={{ padding: '56px 0' }}>
+      <section id="waitlist" style={{ padding: '48px 0' }}>
         <div className="block" style={{ textAlign: 'center' }}>
-          <h2 className="display" style={{ fontSize: 'clamp(2.3rem, 4.8vw, 3.8rem)', marginBottom: '22px', marginLeft: 'auto', marginRight: 'auto', maxWidth: '24ch' }}>
+          <h2 className="display" style={{ fontSize: 'clamp(1.9rem, 4vw, 2.8rem)', marginBottom: '18px', marginLeft: 'auto', marginRight: 'auto', maxWidth: '26ch', lineHeight: 1.2 }}>
             Join the waitlist
           </h2>
-          <p style={{ fontSize: '1.25rem', marginBottom: '40px', marginLeft: 'auto', marginRight: 'auto', maxWidth: '46ch', color: 'var(--color-muted)' }}>
+          <p style={{ fontSize: '1.1rem', marginBottom: '36px', marginLeft: 'auto', marginRight: 'auto', maxWidth: '48ch', color: 'var(--color-muted)' }}>
             We're setting up DealDraft for a limited number of agencies each month — fully configured to your template. The waitlist determines priority.
           </p>
           <WaitlistForm />
