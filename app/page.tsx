@@ -8,9 +8,17 @@ export default function LandingPage() {
       {/* Nav */}
       <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '28px 0' }}>
         <Logo />
-        <a href="#waitlist" className="btn small">
-          Join waitlist
-        </a>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
+          <a href="#how-it-works" style={{ fontSize: '0.95rem', color: 'var(--color-text)', fontWeight: 600, textDecoration: 'none' }}>
+            How it works
+          </a>
+          <a href="#pricing" style={{ fontSize: '0.95rem', color: 'var(--color-text)', fontWeight: 600, textDecoration: 'none' }}>
+            Pricing
+          </a>
+          <a href="#waitlist" className="btn small">
+            Join waitlist
+          </a>
+        </div>
       </nav>
 
       {/* Hero */}
@@ -102,7 +110,7 @@ export default function LandingPage() {
       </section>
 
       {/* How it works */}
-      <section style={{ padding: '48px 0' }}>
+      <section id="how-it-works" style={{ padding: '48px 0' }}>
         <div className="block">
           <h2 className="display" style={{ fontSize: 'clamp(1.9rem, 4vw, 2.8rem)', marginBottom: '40px', lineHeight: 1.2 }}>
             How it works
@@ -146,7 +154,7 @@ export default function LandingPage() {
       </section>
 
       {/* The math */}
-      <section style={{ padding: '48px 0' }}>
+      <section id="pricing" style={{ padding: '48px 0' }}>
         <div className="block white">
           <h2 className="display" style={{ fontSize: 'clamp(1.9rem, 4vw, 2.8rem)', marginBottom: '18px', lineHeight: 1.2 }}>
             Do the math.
@@ -205,9 +213,60 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer style={{ padding: '56px 0', textAlign: 'center', color: 'var(--color-muted)', fontSize: '0.9rem' }}>
-        <Logo />
-        <p style={{ marginTop: '16px' }}>Built for agencies who close.</p>
+      <footer style={{ padding: '56px 0 40px', borderTop: '1px solid var(--color-line)' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr', gap: '48px', marginBottom: '48px' }}>
+          <div>
+            <Logo />
+            <p style={{ marginTop: '16px', color: 'var(--color-muted)', fontSize: '0.95rem', maxWidth: '32ch' }}>
+              Turn sales call transcripts into signed-ready proposals in 10 minutes.
+            </p>
+          </div>
+          <div>
+            <h4 style={{ fontFamily: 'Manrope, sans-serif', fontWeight: 800, fontSize: '0.9rem', marginBottom: '16px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+              Product
+            </h4>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <a href="#how-it-works" style={{ color: 'var(--color-muted)', fontSize: '0.95rem', textDecoration: 'none' }}>
+                How it works
+              </a>
+              <a href="#pricing" style={{ color: 'var(--color-muted)', fontSize: '0.95rem', textDecoration: 'none' }}>
+                Pricing
+              </a>
+              <a href="#waitlist" style={{ color: 'var(--color-muted)', fontSize: '0.95rem', textDecoration: 'none' }}>
+                Waitlist
+              </a>
+            </div>
+          </div>
+          <div>
+            <h4 style={{ fontFamily: 'Manrope, sans-serif', fontWeight: 800, fontSize: '0.9rem', marginBottom: '16px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+              Company
+            </h4>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <a href="/dashboard" style={{ color: 'var(--color-muted)', fontSize: '0.95rem', textDecoration: 'none' }}>
+                Dashboard
+              </a>
+              <a href="mailto:hello@dealdraft.io" style={{ color: 'var(--color-muted)', fontSize: '0.95rem', textDecoration: 'none' }}>
+                Contact
+              </a>
+            </div>
+          </div>
+          <div>
+            <h4 style={{ fontFamily: 'Manrope, sans-serif', fontWeight: 800, fontSize: '0.9rem', marginBottom: '16px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+              Legal
+            </h4>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <a href="#" style={{ color: 'var(--color-muted)', fontSize: '0.95rem', textDecoration: 'none' }}>
+                Privacy
+              </a>
+              <a href="#" style={{ color: 'var(--color-muted)', fontSize: '0.95rem', textDecoration: 'none' }}>
+                Terms
+              </a>
+            </div>
+          </div>
+        </div>
+        <div style={{ textAlign: 'center', paddingTop: '32px', borderTop: '1px solid var(--color-line)', color: 'var(--color-muted)', fontSize: '0.9rem' }}>
+          <p>© 2025 DealDraft. Built for agencies who close.</p>
+        </div>
       </footer>
     </div>
   )

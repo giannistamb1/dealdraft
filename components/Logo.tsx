@@ -5,11 +5,11 @@ export function Logo({ className = "" }: { className?: string }) {
     <Image
       src="/logo.png"
       alt="DealDraft"
-      width={400}
-      height={100}
+      width={350}
+      height={88}
       className={className}
       priority
-      style={{ height: 'auto', width: 'auto', maxWidth: '220px' }}
+      style={{ height: 'auto', width: 'auto', maxWidth: '160px' }}
     />
   )
 }
